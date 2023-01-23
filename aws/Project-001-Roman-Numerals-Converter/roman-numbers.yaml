@@ -45,8 +45,8 @@ Resources:
         cd templates
         wget https://raw.githubusercontent.com/ozgurtaylankarakoc/my-project/main/aws/Project-001-Roman-Numerals-Converter/templates/index.html
         wget https://raw.githubusercontent.com/ozgurtaylankarakoc/my-project/main/aws/Project-001-Roman-Numerals-Converter/templates/result.html
-        python3 app.py
         cd ..
+        python3 app.py
       Tags:
         - Key: Name
           Value: !Sub Web Server of ${AWS::StackName} Stack
